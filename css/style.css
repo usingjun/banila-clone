@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  box-sizing: border-box;
+  opacity: 70%;
+}
+
+#login-form {
+  position: relative;
+  top: 400px;
+  background-color: white;
+}
+
+#login-form input {
+  font-size: 40px;
+}
+
+#clock {
+  font-size: 140px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-top: 160px;
+}
+
+#greeting,
+#greeting2 {
+  font-size: 60px;
+  color: tomato;
+}
+
+#greeting {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#greeting2 {
+  margin-top: 0px;
+}
+
+#todo-form input {
+  font-size: 30px;
+  width: 400px;
+}
+
+#todo-list {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: navy;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  width: 500px;
+  overflow: auto;
+}
+
+#quote {
+  font-size: 20px;
+  color: deeppink;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+
+#weather {
+  font-size: 22px;
+  color: orange;
+}
